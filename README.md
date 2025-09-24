@@ -3,50 +3,6 @@ Learn C Programming with Me
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Polynomial Addition Using Linked List</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    h1 {
-      border-bottom: 3px solid #2c3e50;
-      padding-bottom: 8px;
-    }
-    ul {
-      margin: 10px 0 20px 40px;
-    }
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    .example {
-      background: #f4f4f4;
-      border-left: 5px solid #2c3e50;
-      padding: 10px;
-      margin: 20px 0;
-      font-family: monospace;
-    }
-    .footer {
-      margin-top: 40px;
-      padding-top: 10px;
-      border-top: 1px solid #ccc;
-      font-size: 0.9em;
-      color: #555;
-    }
-  </style>
-</head>
 <body>
 
   <h1>Polynomial Addition Using Linked List</h1>
