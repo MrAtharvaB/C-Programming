@@ -122,7 +122,6 @@ Learn C Programming with Me
 
   <div class="footer">
     <p><b>Author:</b> Atharva Babhane</p>
-    <p><b>Contact info:</b> (optional)</p>
   </div>
 
 </body>
