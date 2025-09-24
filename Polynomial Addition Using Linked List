@@ -1,0 +1,79 @@
+Polynomial Addition Using Linked List
+Overview
+
+This project demonstrates how to represent and add two polynomials using a Linked List data structure. Each term of the polynomial is stored as a node in the linked list, containing the coefficient and the exponent. The program adds two polynomials by traversing their linked lists and combining like terms.
+
+Features
+
+Representation of polynomial terms using linked list nodes.
+
+Addition of two polynomials by merging their linked lists.
+
+Handles polynomials with different exponents.
+
+Displays the resulting polynomial in standard mathematical form.
+
+How It Works
+
+Each node contains:
+
+coefficient (integer or float)
+
+exponent (integer)
+
+next (pointer to the next term/node)
+
+Polynomials are stored in descending order of exponents.
+
+Addition involves iterating through both linked lists simultaneously:
+
+If exponents match, add coefficients and create a new node.
+
+If exponents differ, append the term with the higher exponent.
+
+The result is a new linked list representing the sum polynomial.
+
+File Structure
+
+PolynomialNode.java (or .cpp, .py, etc.): Defines the node structure.
+
+PolynomialLinkedList.java: Contains linked list operations such as insert, display, and add.
+
+Main.java: Contains the main function to demonstrate polynomial addition.
+
+README.md: Project explanation and usage guide.
+
+Usage
+
+Create two polynomials by inserting terms into linked lists.
+
+Call the addition method to compute the sum.
+
+Display the resulting polynomial.
+
+Example:
+
+Polynomial 1: 5x^3 + 4x^2 + 2
+Polynomial 2: 3x^3 + x + 7
+Sum: 8x^3 + 4x^2 + x + 9
+
+Instructions
+
+Clone the repository or download the source files.
+
+Compile and run the main program.
+
+Follow prompts to input polynomials (if interactive) or modify code to set polynomials.
+
+View the result on the console.
+
+Dependencies
+
+Standard programming language libraries (C)
+
+No external libraries required
+
+Author
+Atharva Babhane
+
+Contact info (optional)
